@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:~/querydsl
+    url: jdbc:h2:mem:querydsl
     username: sa
     password:
     driver-class-name: org.h2.Driver

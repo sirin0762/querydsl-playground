@@ -45,7 +45,7 @@ public class Member {
     public Member(String username, int age, Team team) {
         this.username = username;
         this.age = age;
-        if(this.team != null) {
+        if(team != null) {
             changeTeam(team);
         }
     }
