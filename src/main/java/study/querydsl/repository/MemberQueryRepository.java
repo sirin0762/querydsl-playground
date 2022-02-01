@@ -22,7 +22,6 @@ public class MemberQueryRepository {
         this.queryFactory = queryFactory;
     }
 
-    @Override
     public List<MemberTeamDto> search(MemberSearchCondition condition) {
         return queryFactory
             .select(new QMemberTeamDto(
